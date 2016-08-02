@@ -16,6 +16,10 @@
 		9B536ED61D5044D600EA8F43 /* jettaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536ED51D5044D600EA8F43 /* jettaTests.swift */; };
 		9B536EE11D5044D600EA8F43 /* jettaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EE01D5044D600EA8F43 /* jettaUITests.swift */; };
 		9B536EEF1D50453B00EA8F43 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EEE1D50453B00EA8F43 /* Game.swift */; };
+		9B536EF11D5046A300EA8F43 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EF01D5046A300EA8F43 /* Player.swift */; };
+		9B536EF31D50476800EA8F43 /* PracticeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EF21D50476800EA8F43 /* PracticeGame.swift */; };
+		9B536EF51D50494F00EA8F43 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B536EF41D50494F00EA8F43 /* words.txt */; };
+		9B536EF71D504EEE00EA8F43 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EF61D504EEE00EA8F43 /* GameTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		9B536EE01D5044D600EA8F43 /* jettaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jettaUITests.swift; sourceTree = "<group>"; };
 		9B536EE21D5044D600EA8F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B536EEE1D50453B00EA8F43 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9B536EF01D5046A300EA8F43 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9B536EF21D50476800EA8F43 /* PracticeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeGame.swift; sourceTree = "<group>"; };
+		9B536EF41D50494F00EA8F43 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		9B536EF61D504EEE00EA8F43 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,9 @@
 				9B536ECC1D5044D600EA8F43 /* Info.plist */,
 				9B536EC41D5044D600EA8F43 /* jetta.xcdatamodeld */,
 				9B536EEE1D50453B00EA8F43 /* Game.swift */,
+				9B536EF21D50476800EA8F43 /* PracticeGame.swift */,
+				9B536EF01D5046A300EA8F43 /* Player.swift */,
+				9B536EF41D50494F00EA8F43 /* words.txt */,
 			);
 			path = jetta;
 			sourceTree = "<group>";
@@ -118,6 +129,7 @@
 			children = (
 				9B536ED51D5044D600EA8F43 /* jettaTests.swift */,
 				9B536ED71D5044D600EA8F43 /* Info.plist */,
+				9B536EF61D504EEE00EA8F43 /* GameTests.swift */,
 			);
 			path = jettaTests;
 			sourceTree = "<group>";
@@ -240,6 +252,7 @@
 			files = (
 				9B536ECB1D5044D600EA8F43 /* LaunchScreen.storyboard in Resources */,
 				9B536EC81D5044D600EA8F43 /* Assets.xcassets in Resources */,
+				9B536EF51D50494F00EA8F43 /* words.txt in Resources */,
 				9B536EC31D5044D600EA8F43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B536EF31D50476800EA8F43 /* PracticeGame.swift in Sources */,
 				9B536EC61D5044D600EA8F43 /* jetta.xcdatamodeld in Sources */,
 				9B536EC01D5044D600EA8F43 /* ViewController.swift in Sources */,
 				9B536EBE1D5044D600EA8F43 /* AppDelegate.swift in Sources */,
+				9B536EF11D5046A300EA8F43 /* Player.swift in Sources */,
 				9B536EEF1D50453B00EA8F43 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B536ED61D5044D600EA8F43 /* jettaTests.swift in Sources */,
+				9B536EF71D504EEE00EA8F43 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
