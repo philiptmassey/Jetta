@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B536EBE1D5044D600EA8F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EBD1D5044D600EA8F43 /* AppDelegate.swift */; };
+		9B536EC01D5044D600EA8F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EBF1D5044D600EA8F43 /* ViewController.swift */; };
+		9B536EC31D5044D600EA8F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B536EC11D5044D600EA8F43 /* Main.storyboard */; };
+		9B536EC61D5044D600EA8F43 /* jetta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EC41D5044D600EA8F43 /* jetta.xcdatamodeld */; };
+		9B536EC81D5044D600EA8F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B536EC71D5044D600EA8F43 /* Assets.xcassets */; };
+		9B536ECB1D5044D600EA8F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B536EC91D5044D600EA8F43 /* LaunchScreen.storyboard */; };
+		9B536ED61D5044D600EA8F43 /* jettaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536ED51D5044D600EA8F43 /* jettaTests.swift */; };
+		9B536EE11D5044D600EA8F43 /* jettaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EE01D5044D600EA8F43 /* jettaUITests.swift */; };
+		9B536EEF1D50453B00EA8F43 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B536EEE1D50453B00EA8F43 /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B536ED21D5044D600EA8F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B536EB21D5044D600EA8F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B536EB91D5044D600EA8F43;
+			remoteInfo = jetta;
+		};
+		9B536EDD1D5044D600EA8F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B536EB21D5044D600EA8F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B536EB91D5044D600EA8F43;
+			remoteInfo = jetta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B536EBA1D5044D600EA8F43 /* jetta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jetta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B536EBD1D5044D600EA8F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B536EBF1D5044D600EA8F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B536EC21D5044D600EA8F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B536EC51D5044D600EA8F43 /* jetta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jetta.xcdatamodel; sourceTree = "<group>"; };
+		9B536EC71D5044D600EA8F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B536ECA1D5044D600EA8F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B536ECC1D5044D600EA8F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B536ED11D5044D600EA8F43 /* jettaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jettaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B536ED51D5044D600EA8F43 /* jettaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jettaTests.swift; sourceTree = "<group>"; };
+		9B536ED71D5044D600EA8F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B536EDC1D5044D600EA8F43 /* jettaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jettaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B536EE01D5044D600EA8F43 /* jettaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jettaUITests.swift; sourceTree = "<group>"; };
+		9B536EE21D5044D600EA8F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B536EEE1D50453B00EA8F43 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B536EB71D5044D600EA8F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B536ECE1D5044D600EA8F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B536ED91D5044D600EA8F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B536EB11D5044D600EA8F43 = {
+			isa = PBXGroup;
+			children = (
+				9B536EBC1D5044D600EA8F43 /* jetta */,
+				9B536ED41D5044D600EA8F43 /* jettaTests */,
+				9B536EDF1D5044D600EA8F43 /* jettaUITests */,
+				9B536EBB1D5044D600EA8F43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B536EBB1D5044D600EA8F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B536EBA1D5044D600EA8F43 /* jetta.app */,
+				9B536ED11D5044D600EA8F43 /* jettaTests.xctest */,
+				9B536EDC1D5044D600EA8F43 /* jettaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B536EBC1D5044D600EA8F43 /* jetta */ = {
+			isa = PBXGroup;
+			children = (
+				9B536EBD1D5044D600EA8F43 /* AppDelegate.swift */,
+				9B536EBF1D5044D600EA8F43 /* ViewController.swift */,
+				9B536EC11D5044D600EA8F43 /* Main.storyboard */,
+				9B536EC71D5044D600EA8F43 /* Assets.xcassets */,
+				9B536EC91D5044D600EA8F43 /* LaunchScreen.storyboard */,
+				9B536ECC1D5044D600EA8F43 /* Info.plist */,
+				9B536EC41D5044D600EA8F43 /* jetta.xcdatamodeld */,
+				9B536EEE1D50453B00EA8F43 /* Game.swift */,
+			);
+			path = jetta;
+			sourceTree = "<group>";
+		};
+		9B536ED41D5044D600EA8F43 /* jettaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B536ED51D5044D600EA8F43 /* jettaTests.swift */,
+				9B536ED71D5044D600EA8F43 /* Info.plist */,
+			);
+			path = jettaTests;
+			sourceTree = "<group>";
+		};
+		9B536EDF1D5044D600EA8F43 /* jettaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B536EE01D5044D600EA8F43 /* jettaUITests.swift */,
+				9B536EE21D5044D600EA8F43 /* Info.plist */,
+			);
+			path = jettaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B536EB91D5044D600EA8F43 /* jetta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B536EE51D5044D600EA8F43 /* Build configuration list for PBXNativeTarget "jetta" */;
+			buildPhases = (
+				9B536EB61D5044D600EA8F43 /* Sources */,
+				9B536EB71D5044D600EA8F43 /* Frameworks */,
+				9B536EB81D5044D600EA8F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jetta;
+			productName = jetta;
+			productReference = 9B536EBA1D5044D600EA8F43 /* jetta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B536ED01D5044D600EA8F43 /* jettaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B536EE81D5044D700EA8F43 /* Build configuration list for PBXNativeTarget "jettaTests" */;
+			buildPhases = (
+				9B536ECD1D5044D600EA8F43 /* Sources */,
+				9B536ECE1D5044D600EA8F43 /* Frameworks */,
+				9B536ECF1D5044D600EA8F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B536ED31D5044D600EA8F43 /* PBXTargetDependency */,
+			);
+			name = jettaTests;
+			productName = jettaTests;
+			productReference = 9B536ED11D5044D600EA8F43 /* jettaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B536EDB1D5044D600EA8F43 /* jettaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B536EEB1D5044D700EA8F43 /* Build configuration list for PBXNativeTarget "jettaUITests" */;
+			buildPhases = (
+				9B536ED81D5044D600EA8F43 /* Sources */,
+				9B536ED91D5044D600EA8F43 /* Frameworks */,
+				9B536EDA1D5044D600EA8F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B536EDE1D5044D600EA8F43 /* PBXTargetDependency */,
+			);
+			name = jettaUITests;
+			productName = jettaUITests;
+			productReference = 9B536EDC1D5044D600EA8F43 /* jettaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B536EB21D5044D600EA8F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chainbreaker;
+				TargetAttributes = {
+					9B536EB91D5044D600EA8F43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VASJGNE366;
+					};
+					9B536ED01D5044D600EA8F43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VASJGNE366;
+						TestTargetID = 9B536EB91D5044D600EA8F43;
+					};
+					9B536EDB1D5044D600EA8F43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VASJGNE366;
+						TestTargetID = 9B536EB91D5044D600EA8F43;
+					};
+				};
+			};
+			buildConfigurationList = 9B536EB51D5044D600EA8F43 /* Build configuration list for PBXProject "jetta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B536EB11D5044D600EA8F43;
+			productRefGroup = 9B536EBB1D5044D600EA8F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B536EB91D5044D600EA8F43 /* jetta */,
+				9B536ED01D5044D600EA8F43 /* jettaTests */,
+				9B536EDB1D5044D600EA8F43 /* jettaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B536EB81D5044D600EA8F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B536ECB1D5044D600EA8F43 /* LaunchScreen.storyboard in Resources */,
+				9B536EC81D5044D600EA8F43 /* Assets.xcassets in Resources */,
+				9B536EC31D5044D600EA8F43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B536ECF1D5044D600EA8F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B536EDA1D5044D600EA8F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B536EB61D5044D600EA8F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B536EC61D5044D600EA8F43 /* jetta.xcdatamodeld in Sources */,
+				9B536EC01D5044D600EA8F43 /* ViewController.swift in Sources */,
+				9B536EBE1D5044D600EA8F43 /* AppDelegate.swift in Sources */,
+				9B536EEF1D50453B00EA8F43 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B536ECD1D5044D600EA8F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B536ED61D5044D600EA8F43 /* jettaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B536ED81D5044D600EA8F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B536EE11D5044D600EA8F43 /* jettaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B536ED31D5044D600EA8F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B536EB91D5044D600EA8F43 /* jetta */;
+			targetProxy = 9B536ED21D5044D600EA8F43 /* PBXContainerItemProxy */;
+		};
+		9B536EDE1D5044D600EA8F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B536EB91D5044D600EA8F43 /* jetta */;
+			targetProxy = 9B536EDD1D5044D600EA8F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B536EC11D5044D600EA8F43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B536EC21D5044D600EA8F43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B536EC91D5044D600EA8F43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B536ECA1D5044D600EA8F43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B536EE31D5044D600EA8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B536EE41D5044D600EA8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B536EE61D5044D600EA8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = jetta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chainbreaker.jetta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9B536EE71D5044D600EA8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = jetta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chainbreaker.jetta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9B536EE91D5044D700EA8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jettaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chainbreaker.jettaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jetta.app/jetta";
+			};
+			name = Debug;
+		};
+		9B536EEA1D5044D700EA8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jettaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chainbreaker.jettaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jetta.app/jetta";
+			};
+			name = Release;
+		};
+		9B536EEC1D5044D700EA8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jettaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chainbreaker.jettaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jetta;
+			};
+			name = Debug;
+		};
+		9B536EED1D5044D700EA8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jettaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chainbreaker.jettaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jetta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B536EB51D5044D600EA8F43 /* Build configuration list for PBXProject "jetta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B536EE31D5044D600EA8F43 /* Debug */,
+				9B536EE41D5044D600EA8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B536EE51D5044D600EA8F43 /* Build configuration list for PBXNativeTarget "jetta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B536EE61D5044D600EA8F43 /* Debug */,
+				9B536EE71D5044D600EA8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B536EE81D5044D700EA8F43 /* Build configuration list for PBXNativeTarget "jettaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B536EE91D5044D700EA8F43 /* Debug */,
+				9B536EEA1D5044D700EA8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B536EEB1D5044D700EA8F43 /* Build configuration list for PBXNativeTarget "jettaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B536EEC1D5044D700EA8F43 /* Debug */,
+				9B536EED1D5044D700EA8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B536EC41D5044D600EA8F43 /* jetta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B536EC51D5044D600EA8F43 /* jetta.xcdatamodel */,
+			);
+			currentVersion = 9B536EC51D5044D600EA8F43 /* jetta.xcdatamodel */;
+			path = jetta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B536EB21D5044D600EA8F43 /* Project object */;
+}
